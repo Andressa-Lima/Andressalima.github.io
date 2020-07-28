@@ -1,0 +1,43 @@
+body {
+background-color: #F0E68C;
+font-size: 25px;
+}
+
+h1
+{
+    font-size: 60px;
+    text-align: center;
+}
+
+style
+
+/*Link não visitado*/
+a:link {
+    color: orangered;
+}
+
+/*Link já visitado*/
+a:visited {
+    color: chocolate;
+}
+
+/*Quando o mouse passar por cima*/
+a:hover {
+    color: green;
+}
+
+/*Link ativo/selecionado*/
+a:active {
+    color: #3CB371;
+}
+
+img {
+width: 600px; /*largura*/
+height: 420px; /*altura*/
+}
+
+#objetivos.jpg {
+    width: 1000px;
+    height: 420px; 
+
+}
