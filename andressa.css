@@ -47,8 +47,8 @@ li{ /*Parte do cabeçalho*/
     padding-top: 20%;
     font-size: 50px;
     line-height: 0.6;
-    
 }
+
 #subtitulo {
     color: #421404;
     text-shadow: 1px 0px black;
@@ -90,9 +90,16 @@ section{
     position: relative;
     width: 40%;
 }
+.tres{
+    width: 30%;
+}
 .imagens{
     width: 100%;/*largura*/
-    height: 50%; /*alura*/
+    height: 50%; /*altura*/
+}
+.campo{
+    width: 90%;
+    height: 70%;
 }
 .fome3{
     width: 100%;
@@ -104,20 +111,60 @@ section{
 .centralizado{
     text-align: center;
 }
+
 .fontes{
-    text-align: right;
+    padding: 0;
+    text-align: left;
     font-size: 15px;
     font-family: monospace;
 }
-.final{
-    color: white;
-    background-color: #8B4513;
+
+/*parte do S.S.*/
+.salgado{
+    border-radius: 10px;
+    margin: 10px;
+}
+.texto{
+    font-size: 25px;
 }
 #sobre{
     background-color: #DCDCDC;
+    font-size: 23px;
+    padding: 0 2%;
 }
 .eu{
-    width: 90%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
+}
+.colunaF{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    background-color: #8B4513;
+    color: white;
 }
 
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+    .coluna,.colunaF, .quatro {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo{
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+
+/*Pagina do salgado*/
